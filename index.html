@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Página Personal - Tecnologías Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Página Personal</h1>
+    </header>
+
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <article>
+          <h3>Información Personal</h3>
+          <p><strong>Nombre:</strong> Mateo Minghi</p>
+          <p><strong>Matrícula:</strong> A01711231</p>
+          <p>
+            <strong>Correo:</strong>
+            <a href="">a01711231@tec.mx</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="preguntas">
+        <h2>Preguntas</h2>
+
+        <article>
+          <h3>Internet y World Wide Web</h3>
+          <p>
+            <strong
+              >¿Cuál es la diferencia entre Internet y la World Wide
+              Web?</strong
+            >
+          </p>
+          <p>
+            Internet es la red física global de computadoras interconectadas,
+            mientras que la World Wide Web es un servicio que funciona sobre
+            Internet para compartir información mediante documentos HTML
+            enlazados.
+          </p>
+        </article>
+
+        <article>
+          <h3>URLs y HTTP</h3>
+          <p><strong>¿Cuáles son las partes de un URL?</strong></p>
+          <p>
+            Las partes son: protocolo, dominio, puerto (opcional), ruta,
+            parámetros (opcional), y fragmento (opcional).
+          </p>
+
+          <p><strong>¿Cuál es el propósito de los métodos HTTP?</strong></p>
+          <ul>
+            <li>GET: Obtener recursos</li>
+            <li>HEAD: Obtener metadatos del recurso</li>
+            <li>POST: Enviar datos para procesamiento</li>
+            <li>PUT: Actualizar un recurso completo</li>
+            <li>PATCH: Actualizar parcialmente un recurso</li>
+            <li>DELETE: Eliminar un recurso</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Códigos HTTP y Responsabilidades</h3>
+          <p>
+            <strong>Código 200:</strong> Indica que la petición fue exitosa.
+          </p>
+          <p>
+            <strong>Error 404:</strong> Es responsabilidad del desarrollador
+            corregirlo ya que indica que un recurso no existe en la ubicación
+            solicitada.
+          </p>
+          <p>
+            <strong>Error 500:</strong> Es responsabilidad del desarrollador
+            corregirlo ya que indica un error en el servidor.
+          </p>
+        </article>
+
+        <article>
+          <h3>HTML5</h3>
+          <p>
+            <strong>Elementos desaprobados:</strong> &lt;center&gt;,
+            &lt;font&gt;, &lt;strike&gt;, &lt;frame&gt;, &lt;frameset&gt;
+          </p>
+          <p>
+            <strong>Diferencias principales con HTML4:</strong> Nuevos elementos
+            semánticos, mejor soporte multimedia, nuevos tipos de input, APIs
+            JavaScript.
+          </p>
+        </article>
+      </section>
+
+      <section id="contacto">
+        <h2>Forma con controles</h2>
+        <form action="" method="">
+          <fieldset>
+            <legend>Datos de contacto</legend>
+            <p>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </p>
+            <p>
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+              ></textarea>
+            </p>
+            <button>Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Editor utilizado: Visual Studio Code -
+        <a href="https://code.visualstudio.com/"
+          >https://code.visualstudio.com/</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
