@@ -1,0 +1,33 @@
+Las causas de fracaso de los proyectos:
+
+•Especificaciones y requerimientos cambiantes o incompletos
+•Falta de involucramiento de usuarios
+•Pocos conocimientos técnicos del equipo de proyecto
+•Uso inadecuado de métodos y herramientas
+•Expectativas poco realistas
+•Falta se soporte gerencial
+•Gestión de proyectos débil, lo que incluye no identificación de riesgos, falta de planificación, comunicación deficiente
+
+
+Proyecto: un esfuerzo temporal emprendido para crear un producto, servicio o resultado único.
+
+Administración de proyectos: aplicación de conocimiento, habilidades, herramientas, y técnicas en las actividades de un proyecto para cubrir los requerimientos del proyecto.
+
+PMI es una asociación no lucrativa para profesionalizar la administración de proyectos. La Guía del PMBOK describe el entorno en que se desarrollan los proyectos, las características de los proyectos, el conocimiento necesario para administrar un proyecto, y establece un vocabulario compartido.
+-Incluye:
+
+•Integración - incluye los procesos necesarios para garantizar que los distintos elementos del proyecto son coordinados adecuadamente (desarrollo y ejecución de plan de proyecto)
+
+•Comunicación - incluye cómo generar, recolectar, distribuir, almacenar, recuperar y eliminar la información del proyecto
+
+•Alcance - incluye cómo determinar si el proyecto incluye todo el trabajo necesario y sólo el trabajo necesario para ejecutar el proyecto satisfactoriamente
+
+•Calendario y costo - incluye cómo determinar el orden y secuencia en que se deben ejecutar las actividades para producir oportunamente los entregables del proyecto
+
+•Calidad -  incluye cómo satisfacer las necesidades para las que se ejecuta el proyecto.
+
+•Riesgo - incluyen cómo identificar y actuar ante eventos que están fuera de control del proyecto, pero pueden afectar su resultado.
+
+•Recursos humanos - incluye cómo organizar y administrar el equipo de proyecto.
+
+•Aprovisionamiento - incluye cómo adquirir los bienes y servicios externos que el proyecto requiere.

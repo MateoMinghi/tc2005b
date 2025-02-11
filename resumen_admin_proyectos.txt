@@ -1,0 +1,25 @@
+La administración del alcance del proyecto incluye los procesos necesarios para garantizar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completar el proyecto con éxito. 
+
+Alcance del proyecto: suma de todos los productos y servicios que deben entregarse. Define lo que está incluido y lo que no está incluido en el proyecto
+-objetivos SMART
+
+El alcance del producto abarca las características y funciones que debe tener un producto o servicio, verificándose con los requisitos. El alcance del proyecto refiere al trabajo o tareas necesarias para entregar el producto con las características solicitadas.
+
+Procesos involucrados en administración del alcance:
+• Iniciación - proceso de autorización formal de un nuevo proyecto o fase. Se asegura el soporte de la organización, definición de objetivos , la aprobación y recursos necesarios, alineación con objetivos estratégicos y asignación de jefe de proyecto
+
+
+• Planificación del alcance - desarrollo de un enunciado escrito del alcance como base para decisiones futuras del proyecto. Debe incluir la justificación, el producto, los entregables y los objetivos del proyecto (SMART). El plan de gestión del alcance describe cómo se gestionará el alcancel proyecto.
+
+
+• Definición del alcance - dividir el trabajo en partes manejables para mejorar la precisión de las estimaciones de tiempo, costo y recursos, definir la línea base para medir el rendimiento, y definir responsabilidades
+
+***Entregable: todo producto, resultado o elemento medible.
+
+Work Breakdown Structure (WBS) Es la herramienta más importante de la gestión de proyectos, donde surge o se basa el resto de la planificación. Es el resultado de subdividir los entregables y el trabajo del proyecto en componentes cada vez más pequeños y manejables. Cada elemento debe representar un entregable medible. Cada elemento debe representar la suma de los elementos del nivel inferior
+
+
+• Verificación del alcance
+
+
+• Control de cambios del alcance
