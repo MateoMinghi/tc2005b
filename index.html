@@ -30,17 +30,11 @@
 
         <article>
           <h3>Internet y World Wide Web</h3>
+          <p><strong>¿Cuál es la diferencia entre Internet y la World Wide Web?</strong></p>
           <p>
-            <strong
-              >¿Cuál es la diferencia entre Internet y la World Wide
-              Web?</strong
-            >
-          </p>
-          <p>
-            Internet es la red física global de computadoras interconectadas,
-            mientras que la World Wide Web es un servicio que funciona sobre
-            Internet para compartir información mediante documentos HTML
-            enlazados.
+            Internet es la red física global de computadoras interconectadas que permite la comunicación entre dispositivos,
+            mientras que la World Wide Web es un servicio que funciona sobre Internet, siendo un sistema de documentos
+            interconectados por hipervínculos que son accesibles a través de Internet usando un navegador web.
           </p>
         </article>
 
@@ -48,47 +42,128 @@
           <h3>URLs y HTTP</h3>
           <p><strong>¿Cuáles son las partes de un URL?</strong></p>
           <p>
-            Las partes son: protocolo, dominio, puerto (opcional), ruta,
-            parámetros (opcional), y fragmento (opcional).
+            Las partes principales de un URL son:
+            - Protocolo (http://, https://)
+            - Dominio o hostname (www.ejemplo.com)
+            - Puerto (opcional, ej: :80)
+            - Ruta (/blog/articulo)
+            - Parámetros de consulta (opcional, ej: ?id=123)
+            - Fragmento (opcional, ej: #seccion)
           </p>
 
-          <p><strong>¿Cuál es el propósito de los métodos HTTP?</strong></p>
+          <p><strong>¿Cuál es el propósito de los métodos HTTP: GET, HEAD, POST, PUT, PATCH, DELETE?</strong></p>
           <ul>
-            <li>GET: Obtener recursos</li>
-            <li>HEAD: Obtener metadatos del recurso</li>
-            <li>POST: Enviar datos para procesamiento</li>
-            <li>PUT: Actualizar un recurso completo</li>
-            <li>PATCH: Actualizar parcialmente un recurso</li>
-            <li>DELETE: Eliminar un recurso</li>
+            <li>GET: Solicitar y recuperar datos del servidor</li>
+            <li>HEAD: Obtener los metadatos de un recurso sin obtener el contenido</li>
+            <li>POST: Enviar datos al servidor para crear nuevos recursos</li>
+            <li>PUT: Actualizar o reemplazar completamente un recurso existente</li>
+            <li>PATCH: Realizar modificaciones parciales a un recurso</li>
+            <li>DELETE: Eliminar un recurso específico</li>
           </ul>
+
+          <p><strong>¿Qué método HTTP se debe utilizar al enviar un formulario HTML?</strong></p>
+          <p>
+            Se debe utilizar el método POST al enviar formularios HTML, especialmente para datos sensibles como usuarios y contraseñas.
+            Esto es porque POST envía los datos en el cuerpo de la petición HTTP, no en la URL, lo que es más seguro y permite
+            enviar mayor cantidad de datos.
+          </p>
+
+          <p><strong>¿Qué método HTTP se utiliza cuando se accede a una página a través de un URL?</strong></p>
+          <p>
+            Cuando se accede a una página web a través de un URL en el navegador, se utiliza el método GET. Este método
+            es el predeterminado para solicitar recursos web y visualizar páginas.
+          </p>
         </article>
 
         <article>
           <h3>Códigos HTTP y Responsabilidades</h3>
+          <p><strong>Código 200:</strong></p>
           <p>
-            <strong>Código 200:</strong> Indica que la petición fue exitosa.
+            El código 200 significa "OK" e indica que la petición fue exitosa. No ocurrió ningún error y el servidor
+            respondió correctamente con el recurso solicitado.
           </p>
+
+          <p><strong>Error 404 - Responsabilidad del desarrollador:</strong></p>
           <p>
-            <strong>Error 404:</strong> Es responsabilidad del desarrollador
-            corregirlo ya que indica que un recurso no existe en la ubicación
-            solicitada.
+            Sí, es responsabilidad del desarrollador corregirlo ya que el error 404 (Not Found) indica que un recurso
+            no existe en la ubicación solicitada. Esto puede ocurrir por enlaces rotos, recursos movidos o eliminados,
+            y es importante mantener las rutas actualizadas y proporcionar redirecciones cuando sea necesario.
           </p>
+
+          <p><strong>Error 500 - Responsabilidad del desarrollador:</strong></p>
           <p>
-            <strong>Error 500:</strong> Es responsabilidad del desarrollador
-            corregirlo ya que indica un error en el servidor.
+            Sí, es responsabilidad del desarrollador corregirlo ya que el error 500 (Internal Server Error) indica
+            un problema en el servidor, generalmente causado por errores en el código del servidor, problemas de
+            configuración o fallos en la base de datos que deben ser identificados y corregidos por el equipo de desarrollo.
           </p>
         </article>
 
         <article>
           <h3>HTML5</h3>
+          <p><strong>Elementos HTML desaprobados (deprecated):</strong></p>
           <p>
-            <strong>Elementos desaprobados:</strong> &lt;center&gt;,
-            &lt;font&gt;, &lt;strike&gt;, &lt;frame&gt;, &lt;frameset&gt;
+            Un atributo o elemento desaprobado significa que aunque aún puede funcionar, se considera obsoleto y podría
+            dejar de ser soportado en futuras versiones. Algunos elementos desaprobados de HTML4 en HTML5 son:
+            &lt;center&gt;, &lt;font&gt;, &lt;strike&gt;, &lt;frame&gt;, &lt;frameset&gt;, &lt;noframes&gt;, &lt;acronym&gt;,
+            &lt;applet&gt;, &lt;basefont&gt;, &lt;dir&gt;, &lt;isindex&gt;
           </p>
+
+          <p><strong>Diferencias principales entre HTML4 y HTML5:</strong></p>
+          <ul>
+            <li>Nuevos elementos semánticos: &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;</li>
+            <li>Mejor soporte para multimedia: &lt;audio&gt; y &lt;video&gt; nativos</li>
+            <li>Nuevos tipos de input y atributos para formularios</li>
+            <li>Canvas para gráficos</li>
+            <li>Almacenamiento local y APIs para aplicaciones web</li>
+            <li>Mejor manejo de errores de sintaxis</li>
+          </ul>
+
+          <p><strong>Componentes de estructura y estilo de una tabla:</strong></p>
+          <ul>
+            <li>Estructura: &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, &lt;th&gt;, &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, &lt;caption&gt;</li>
+            <li>Estilo: border, border-collapse, padding, text-align, vertical-align, background-color, width, height</li>
+          </ul>
+
+          <p><strong>Principales controles de una forma HTML5:</strong></p>
+          <ul>
+            <li>Campos de texto: &lt;input type="text"&gt;</li>
+            <li>Contraseñas: &lt;input type="password"&gt;</li>
+            <li>Casillas de verificación: &lt;input type="checkbox"&gt;</li>
+            <li>Botones de radio: &lt;input type="radio"&gt;</li>
+            <li>Selectores: &lt;select&gt; y &lt;option&gt;</li>
+            <li>Áreas de texto: &lt;textarea&gt;</li>
+            <li>Botones: &lt;button&gt; o &lt;input type="submit"&gt;</li>
+            <li>Nuevos en HTML5: email, number, date, color, range, search</li>
+          </ul>
+
+          <p><strong>Soporte HTML5 en mi navegador:</strong></p>
           <p>
-            <strong>Diferencias principales con HTML4:</strong> Nuevos elementos
-            semánticos, mejor soporte multimedia, nuevos tipos de input, APIs
-            JavaScript.
+            Usando Google Chrome versión 120, mi puntuación en html5test.com es 528 de 555 puntos,
+            lo que indica un excelente soporte para HTML5.
+          </p>
+        </article>
+
+        <article>
+          <h3>Ciclos de Vida y Desarrollo</h3>
+          <p><strong>Ciclo de vida de los sistemas de información:</strong></p>
+          <p>
+            1. Planificación
+            2. Análisis
+            3. Diseño
+            4. Implementación
+            5. Pruebas
+            6. Despliegue
+            7. Mantenimiento y Evolución
+          </p>
+
+          <p><strong>Ciclo de desarrollo de sistemas de información:</strong></p>
+          <p>
+            1. Análisis de requisitos
+            2. Diseño del sistema
+            3. Diseño del programa
+            4. Codificación
+            5. Pruebas
+            6. Implementación y mantenimiento
           </p>
         </article>
 
