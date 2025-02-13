@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Página Personal - Tecnologías Web</title>
+    <link rel="stylesheet" href="styles.min.css">
   </head>
   <body>
     <header>
-      <h1>Mi Página Personal</h1>
+      <h1>Laboratorio HTML</h1>
     </header>
 
     <main>
@@ -88,6 +89,39 @@
             <strong>Diferencias principales con HTML4:</strong> Nuevos elementos
             semánticos, mejor soporte multimedia, nuevos tipos de input, APIs
             JavaScript.
+          </p>
+        </article>
+
+        <article>
+          <h3>CSS y Buenas Prácticas</h3>
+          <p><strong>¿Cuál es tu recomendación sobre el uso de !important en CSS?</strong></p>
+          <p>
+            Se debe evitar el uso de !important ya que rompe la especificidad natural de CSS y dificulta el mantenimiento del código. 
+            Solo debería usarse en casos muy específicos como sobrescribir estilos de librerías de terceros cuando no hay otra opción.
+          </p>
+
+          <p><strong>¿Por qué debe escogerse con cuidado una imagen de fondo en HTML?</strong></p>
+          <p>
+            Las imágenes de fondo deben escogerse cuidadosamente porque afectan la legibilidad del contenido, el tiempo de carga de la página,
+            y el consumo de datos del usuario. Es importante considerar el contraste con el texto, el tamaño del archivo, y cómo se verá
+            en diferentes tamaños de pantalla.
+          </p>
+
+          <p><strong>¿Cuál es tu recomendación al elegir unidades entre %, px y pt?</strong></p>
+          <p>
+            - Usar % para layouts responsivos y elementos que deben escalar con el viewport
+            - Usar px para bordes, sombras y elementos que deben mantener tamaño consistente
+            - Evitar pt ya que está diseñado para impresión y no pantallas
+            - Considerar también rem/em para tipografía y espaciado para mejor accesibilidad
+          </p>
+
+          <p><strong>¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?</strong></p>
+          <p>
+            La versión minimizada del CSS mejora el rendimiento porque:
+            - Reduce el tamaño del archivo eliminando espacios, comentarios y caracteres innecesarios
+            - Disminuye el tiempo de descarga y el consumo de ancho de banda
+            - Acelera el parsing del CSS por el navegador
+            - Reduce la carga del servidor
           </p>
         </article>
       </section>
