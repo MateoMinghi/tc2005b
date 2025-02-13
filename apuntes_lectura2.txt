@@ -1,0 +1,44 @@
+Introducción a los Sistemas de Información
+
+•El progreso en administración, finanzas y producción ha conducido a la rápida adopción de sistemas automáticos que facilitan tareas mecánicas y rutinarias.
+•Se ha logrado el acceso a enormes volúmenes de información en un corto período de tiempo gracias a las redes de transmisión de datos e información y a las bases de datos con acceso en línea, ubicadas en cualquier lugar y localizables mediante Internet.
+•El uso adecuado de las tecnologías de información brindará a la empresa ventajas competitivas y estratégicas.
+•El directivo debe saber elegir una u otra opción, para lo cual necesitará adquirir una visión global y empresarial de los sistemas de información.
+
+Sistema de información: conjunto de componentes interrelacionados que recopilan, procesan, almacenan y distribuyen información para soportar la toma de decisiones y el control en la organización
+
+Elementos:
+•Entrada
+•Procesamiento (clasificación, cálculo)
+•Salida
+•Retroalimentación
+•Ambiente (clientes, proveedores, instancias reguladoras, inversionistas, competidores)
+
+
+Dato: representación simbólica de un atributo o característica de una entidad que, convenientemente tratado o procesado, puede ser utilizado en la realización de cálculos o toma de decisiones. 
+Información: es un conjunto organizado de datos que constituyen un mensaje sobre un determinado ente o fenómeno. 
+
+
+El procesamiento son las acciones que toman los datos de entrada para procesarlos (clasificarlos, ordenarlos, validarlos, etc.) y generar información de utilidad al usuario. 
+Ejemplos de procesamiento: la validación de notas, el cálculo de la nota total en base a los pesos asignados o la generación de gráficos.
+
+La salida es la información que la computadora entregará al usuario. 
+Ejemplos: resultados de quienes aprueban y reprueban, gráficos de aprovechamiento o indicadores de aprovechamiento.
+La retroalimentación es el valor añadido que proporciona el sistema de información para que los usuarios puedan tomar decisiones empresariales o para que el mismo sistema de información sea mejorado.
+
+Tipos de sistemas de información:
+•TPS (Transaction Processing System) - diseñados para apoyar las actividades diarias de una empresa y representan el corazón de los sistemas de información
+
+•OAS (Office Automation Systems) - apoyan las actividades diarias para elevar la productividad de los empleados que trabajan con información.
+
+•KWS (Knowledge Work Systems) - apoyan a los trabajadores especializados en la creación e integración de nuevos conocimientos para la institución.
+
+•MIS (Management Information Systems) - colección de personas, procedimientos, bases de datos y dispositivos necesarios para proveer de información a los administradores y tomadores de decisiones para que estos cumplan con los objetivos organizacionales. 
+
+•DSS (Decision Support Systems) - conjunto de personas, procedimientos, hardware y software, bases de datos y dispositivos que apoyan la toma de decisiones a problemas específicos para problemas semi-estructurados o no estructurados. 
+
+•ES (Expert Systems) - intentan actuar o comportarse como un humano experto en un determinado campo o área.
+
+•GDSS (Group Decision Support Systems) 
+
+•EIS (Executive Information Systems) - engloba toda la información crítica de la institución que influye en la toma de decisiones y apoya la toma de decisiones no estructuradas con información de indicadores clave en forma gráfica.
