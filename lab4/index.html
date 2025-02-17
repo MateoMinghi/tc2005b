@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Página Personal - Tecnologías Web</title>
+    <title>Mi Página Personal - JavaScript Exercises</title>
     <link rel="stylesheet" href="styles.min.css">
   </head>
   <body>
@@ -198,6 +198,111 @@
             - Reduce la carga del servidor
           </p>
         </article>
+
+        <article>
+          <h3>JavaScript Fundamentals</h3>
+          <p><strong>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</strong></p>
+          <p>Semejanzas:</p>
+          <ul>
+            <li>Sintaxis básica similar (llaves, punto y coma)</li>
+            <li>Soportan programación orientada a objetos</li>
+            <li>Tienen bibliotecas estándar incorporadas</li>
+          </ul>
+          <p>Diferencias:</p>
+          <ul>
+            <li>JavaScript es un lenguaje interpretado, Java es compilado</li>
+            <li>JavaScript es de tipado dinámico, Java es de tipado estático</li>
+            <li>JavaScript se ejecuta principalmente en navegadores, Java es multiplataforma</li>
+            <li>JavaScript es prototípico, Java es basado en clases</li>
+            <li>JavaScript no necesita declaración de tipos, Java sí</li>
+          </ul>
+
+          <p><strong>¿Qué métodos tiene el objeto Date?</strong></p>
+          <ul>
+            <li>getDate(): Obtiene el día del mes (1-31)</li>
+            <li>getMonth(): Obtiene el mes (0-11)</li>
+            <li>getFullYear(): Obtiene el año completo</li>
+            <li>getHours(): Obtiene la hora (0-23)</li>
+            <li>getTime(): Obtiene milisegundos desde 1970</li>
+            <li>setDate(): Establece el día del mes</li>
+            <li>toLocaleString(): Convierte la fecha a string según la localización</li>
+          </ul>
+
+          <p><strong>¿Qué métodos tienen los arreglos?</strong></p>
+          <ul>
+            <li>push(): Añade elementos al final del arreglo</li>
+            <li>pop(): Elimina y devuelve el último elemento</li>
+            <li>map(): Crea un nuevo arreglo transformando cada elemento</li>
+            <li>filter(): Crea un nuevo arreglo con elementos que cumplen una condición</li>
+            <li>reduce(): Reduce el arreglo a un único valor</li>
+            <li>forEach(): Ejecuta una función para cada elemento</li>
+            <li>sort(): Ordena los elementos del arreglo</li>
+          </ul>
+
+          <p><strong>¿Cómo se declara una variable con alcance local dentro de una función?</strong></p>
+          <p>
+            Se utiliza la palabra clave 'let' o 'const' para declarar variables con alcance de bloque dentro de una función.
+            Por ejemplo:
+            <code>
+              function ejemplo() {
+                let variableLocal = "solo visible aquí";
+                const constanteLocal = 42;
+              }
+            </code>
+          </p>
+
+          <p><strong>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</strong></p>
+          <ul>
+            <li>Pueden ser modificadas por cualquier parte del código, causando efectos secundarios inesperados</li>
+            <li>Dificultan el testing y debugging del código</li>
+            <li>Pueden causar colisiones de nombres con otras variables</li>
+            <li>Aumentan el acoplamiento entre diferentes partes del código</li>
+            <li>Pueden causar problemas de seguridad al exponer datos sensibles</li>
+            <li>Dificultan el mantenimiento y la escalabilidad del código</li>
+          </ul>
+        </article>
+
+      </section>
+
+      <section id="ejercicios-js">
+        <h2>Ejercicios JavaScript</h2>
+
+        <article>
+          <h3>1. Tabla de Cuadrados y Cubos</h3>
+          <button onclick="generarTabla()">Generar Tabla</button>
+          <div id="resultadoTabla"></div>
+        </article>
+
+        <article>
+          <h3>2. Suma de Números Aleatorios</h3>
+          <button onclick="probarSuma()">Intentar Suma</button>
+          <div id="resultadoSuma"></div>
+        </article>
+
+        <article>
+          <h3>3. Contador de Números</h3>
+          <button onclick="probarContador()">Probar Contador</button>
+          <div id="resultadoContador"></div>
+        </article>
+
+        <article>
+          <h3>4. Promedios de Matriz</h3>
+          <button onclick="probarPromedios()">Probar Promedios</button>
+          <div id="resultadoPromedios"></div>
+        </article>
+
+        <article>
+          <h3>5. Número Inverso</h3>
+          <button onclick="probarInverso()">Probar Inverso</button>
+          <div id="resultadoInverso"></div>
+        </article>
+
+        <article>
+          <h3>6. Conversor de Temperatura</h3>
+          <p>Esta solución implementa un conversor de temperatura que mantiene un historial de conversiones utilizando un objeto con métodos para convertir entre Celsius y Fahrenheit.</p>
+          <button onclick="probarConversor()">Probar Conversor</button>
+          <div id="resultadoConversor"></div>
+        </article>
       </section>
 
       <section id="contacto">
@@ -236,5 +341,6 @@
         >
       </p>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>

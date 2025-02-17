@@ -1,0 +1,17 @@
+
+
+Requerimientos de Software
+
+
+Con funciones anónimas podemos guardar la dirección de memoria de una función. Algo así como apuntador pero para funciones.
+
+'''
+// Definición de una función anónima y asignación a la constante `mi_funcion`
+const mi_funcion = () => {
+    // Esta línea imprime un mensaje en la consola
+    console.log("sk.djnverne.wjkn desde una función anónima");
+}
+
+// Llamada a la función anónima `mi_funcion`
+mi_funcion();
+'''
