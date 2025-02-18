@@ -1,4 +1,5 @@
-La administración del alcance del proyecto incluye los procesos necesarios para garantizar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completar el proyecto con éxito. 
+La administración del alcance del proyecto incluye los procesos necesarios para garantizar que el proyecto incluya todo el trabajo requerido,
+y solo el trabajo requerido, para completar el proyecto con éxito. 
 
 Alcance del proyecto: suma de todos los productos y servicios que deben entregarse. Define lo que está incluido y lo que no está incluido en el proyecto
 -objetivos SMART

@@ -1,3 +1,4 @@
+el css se minimiza para que tarde menos en marndarse por la red y al nevegador le tarde menos cargar
 
 
 Requerimientos de Software
@@ -15,3 +16,48 @@ const mi_funcion = () => {
 // Llamada a la función anónima `mi_funcion`
 mi_funcion();
 '''
+
+
+
+
+¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?
+-para garantizar la integridad de los datos y la seguridad frente a posibles amenazas
+-mejora la experiencia de usuario
+-evita los retrasos de la comunicación entre el cliente y servidor
+
+¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?
+-
+
+Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?
+-
+
+
+
+
+Alcance de proyecto:
+-descartar lo que no es necesarios
+-acta de proyecto: documento que reconoce formalmente la existencia de un proyecto y aporta información sobre los objetivos del proyecto y de gestión.
+    -necesidades de negocio
+    -descripción del producto
+
+-enunciado del alcance: documento utilizado para desarrollar y confirmar un entendimiento común del alcance del proyecto. Debe incluir:
+    -justificación del proyecto
+    -producto del proyecto
+    -entregables del proyecto
+    -objetivos del proyecto (SMART)
+
+-work Breakdown structures
+    -"algoritmo del plan de trabajo"
+    -permite ordenar y clasificar las tareas y los milestones de un proyecto bajo una jaraquía en el orden en el que 
+    necesitan ser cumplidos para que se cumplan los requerimientos del proyecto.
+
+
+El diagrama de casos de usos no es suficiente para definir el alcance del proyecto. Para eso usamo un Diagrama de Contexto.
+-Diagrama de contexto: utilizado para identificar a los interesados en el sistema. Nos ayuda a delimitar el alcance del sistema, 
+ya que se plantean las interacciones que se considerarán en el sistema. Podemos decidir si el sistema de información atenderá requerimientos de:
+    -un área de la organización
+
+Ejemplo del diagrama desglosado:
+Alumnos
+    A1) Registar horario (Matrícula, Carrera, Hora Inscripción, Materias, Grupos)
+    A2) Consultar turno (Fecha, Hora, )

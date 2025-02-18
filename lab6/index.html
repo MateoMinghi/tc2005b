@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Contraseñas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de Contraseñas</h1>
+        <form id="passwordForm" novalidate>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <div class="password-input-wrapper">
+                    <input type="password" id="password" required>
+                    <button type="button" class="toggle-password" aria-label="Mostrar contraseña">
+                        <i class="eye-icon">👁️</i>
+                    </button>
+                </div>
+                <div class="password-strength">
+                    <div class="strength-meter">
+                        <div class="strength-bar"></div>
+                    </div>
+                    <p class="strength-text"></p>
+                </div>
+                <div class="requirements">
+                    <p class="req" data-requirement="length">✗ Mínimo 8 caracteres</p>
+                    <p class="req" data-requirement="uppercase">✗ Al menos una mayúscula</p>
+                    <p class="req" data-requirement="lowercase">✗ Al menos una minúscula</p>
+                    <p class="req" data-requirement="number">✗ Al menos un número</p>
+                    <p class="req" data-requirement="special">✗ Al menos un carácter especial</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmar Contraseña:</label>
+                <div class="password-input-wrapper">
+                    <input type="password" id="confirmPassword" required>
+                    <button type="button" class="toggle-password" aria-label="Mostrar contraseña">
+                        <i class="eye-icon">👁️</i>
+                    </button>
+                </div>
+                <p class="match-message"></p>
+            </div>
+            <button type="submit" id="submitBtn" disabled>Crear Contraseña</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

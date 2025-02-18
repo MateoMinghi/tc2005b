@@ -1,0 +1,28 @@
+El texto explica la justificación y el contexto de las bases de datos y los sistemas de gestión de bases de datos (DBMS).
+
+•Antes de las bases de datos, los datos estaban ligados a los programas de aplicación, lo que resultaba en redundancia,
+inconsistencia y falta de credibilidad de la información.
+
+•El enfoque de bases de datos surgió para diseñar los datos de una empresa de forma integral,
+minimizando la repetición y permitiendo que los usuarios accedan a subconjuntos de información.
+
+•Una base de datos se define como una colección de archivos interrelacionados con múltiples 
+ocurrencias de un mismo tipo de registro.
+
+•El uso de un sistema administrador de bases de datos (DBMS) marca la diferencia entre una base de datos
+y un sistema de archivos. Un DBMS es una colección de datos interrelacionados y programas para acceder a esos datos, proporcionando un entorno eficiente para extraer y almacenar información.
+
+•Es conveniente usar bases de datos cuando se manejan varios archivos interrelacionados, 
+la información es requerida por varios usuarios o aplicaciones, y el volumen de datos es grande.
+
+•Los sistemas de gestión de bases de datos (DBMS) están diseñados para gestionar grandes bloques 
+de información, mantener la seguridad, y evitar resultados anómalos cuando los datos son compartidos por varios usuarios.
+
+•Un sistema de procesamiento de archivos tiene desventajas importantes tales como redundancia
+e inconsistencia de los datos, dificultad para tener acceso a los datos, aislamiento de los datos, anomalías del acceso concurrente, problemas de seguridad y problemas de integridad.
+
+•El administrador de base de datos (DBMS) es un módulo de programa que proporciona la interfaz 
+entre los datos de bajo nivel almacenados en la base de datos y los programas de aplicación y consultas hechos al sistema. Es responsable de tareas como la interacción con el gestor de archivos, la implementación de la integridad y la seguridad, la copia de seguridad y recuperación, y el control de concurrencia.
+
+•El objetivo de un sistema de bases de datos es simplificar y facilitar el acceso a los datos, 
+minimizando la necesidad de mover los datos entre el disco y la memoria principal.
