@@ -1,35 +1,33 @@
-El texto proporciona una introducción al diseño de bases de datos relacionales, desde los problemas que pueden surgir de un mal diseño hasta los modelos para el diseño conceptual.
+Problemas de un mal diseño:
+-Redundancia de datos.
+-Incoherencia durante las actualizaciones.
+-Presencia de valores nulos.
+-Desperdicio de espacio.
+-Complicación en la actualización de la base de datos (inserción, eliminación y modificación).
 
-**Problemas de un mal diseño:**
-*   Redundancia de datos.
-*   Incoherencia durante las actualizaciones.
-*   Presencia de valores nulos.
-*   Desperdicio de espacio.
-*   Complicación en la actualización de la base de datos (inserción, eliminación y modificación).
+Pasos en el diseño de bases de datos relacionales:
+-Recolección y análisis de requerimientos: Entrevistas con los futuros usuarios para documentar sus necesidades de información.
+-Diseño conceptual: Creación de un esquema conceptual utilizando un modelo de datos de alto nivel, como el modelo Entidad-Relación (E-R). Este esquema detalla los requerimientos de información, tipos de datos, relaciones y restricciones.
+-Diseño lógico: Implementación de la base de datos con un S.G.B.D. comercial, transformando el modelo conceptual a un modelo de datos específico (relacional, jerárquico, red). El texto especifica que se utilizará un S.G.B.D. relacional.
+-Diseño físico: Especificación de las estructuras de almacenamiento internas y la organización de los archivos.
 
-**Pasos en el diseño de bases de datos relacionales:**
-*   **Recolección y análisis de requerimientos:** Entrevistas con los futuros usuarios para documentar sus necesidades de información.
-*   **Diseño conceptual:** Creación de un esquema conceptual utilizando un modelo de datos de alto nivel, como el modelo Entidad-Relación (E-R). Este esquema detalla los requerimientos de información, tipos de datos, relaciones y restricciones.
-*   **Diseño lógico:** Implementación de la base de datos con un S.G.B.D. comercial, transformando el modelo conceptual a un modelo de datos específico (relacional, jerárquico, red). El texto especifica que se utilizará un S.G.B.D. relacional.
-*   **Diseño físico:** Especificación de las estructuras de almacenamiento internas y la organización de los archivos.
+Modelo Entidad-Relación (E-R):
+-El modelo E-R fue propuesto por Peter Chen en 1976.
+-Es un modelo intuitivo con una representación gráfica que facilita la visión global del modelo.
+-Utiliza entidades (objetos del mundo real con existencia propia) representadas como rectángulos.
+-Las asociaciones representan la interrelación entre entidades, representadas con rombos. El grado de una relación es el número de entidades que participan en la relación. La cardinalidad de una asociación es el número de elementos de las entidades participantes que se relacionan entre sí.
+-Los atributos son características o propiedades que describen las entidades y/o asociaciones, representados con elipses.
+-La participación de las entidades en una relación puede ser opcional (parcial) o obligatoria (total).
 
-**Modelo Entidad-Relación (E-R):**
-*   El modelo E-R fue propuesto por Peter Chen en 1976.
-*   Es un modelo intuitivo con una representación gráfica que facilita la visión global del modelo.
-*   Utiliza **entidades** (objetos del mundo real con existencia propia) representadas como rectángulos.
-*   Las **asociaciones** representan la interrelación entre entidades, representadas con rombos. El grado de una relación es el número de entidades que participan en la relación. La cardinalidad de una asociación es el número de elementos de las entidades participantes que se relacionan entre sí.
-*   Los **atributos** son características o propiedades que describen las entidades y/o asociaciones, representados con elipses.
-*   La participación de las entidades en una relación puede ser opcional (parcial) o obligatoria (total).
+Metodología para integrar un Modelo Entidad Relación Básico MER:
+-Identificar entidades e incorporar atributos.
+-Determinar identificadores únicos.
+-Identificar asociaciones entre entidades.
+-Determinar la cardinalidad de las asociaciones.
+-Incorporar atributos a las asociaciones en cardinalidades N:N.
+-Verificar con los requerimientos y refinar el modelo.
 
-**Metodología para integrar un Modelo Entidad Relación Básico MER:**
-*   Identificar entidades e incorporar atributos.
-*   Determinar identificadores únicos.
-*   Identificar asociaciones entre entidades.
-*   Determinar la cardinalidad de las asociaciones.
-*   Incorporar atributos a las asociaciones en cardinalidades N:N.
-*   Verificar con los requerimientos y refinar el modelo.
-
-**Modelo E-R Extendido:**
-*   Roles: se utilizan cuando una entidad juega más de un rol en una asociación.
-*   Entidades generalizadoras (superclase) y especializadoras (subclase). Las relaciones ISA (ES_UN) son implícitamente de cardinalidad 1:1. El tipo ES_UN puede ser disjunto o solapado.
-*   Entidades fuertes (existencia propia) y débiles (dependen de otra entidad).
+Modelo E-R Extendido:
+-Roles: se utilizan cuando una entidad juega más de un rol en una asociación.
+-Entidades generalizadoras (superclase) y especializadoras (subclase). Las relaciones ISA (ES_UN) son implícitamente de cardinalidad 1:1. El tipo ES_UN puede ser disjunto o solapado.
+-Entidades fuertes (existencia propia) y débiles (dependen de otra entidad).
