@@ -61,3 +61,22 @@ Ejemplo del diagrama desglosado:
 Alumnos
     A1) Registar horario (Matrícula, Carrera, Hora Inscripción, Materias, Grupos)
     A2) Consultar turno (Fecha, Hora, )
+
+
+
+
+
+1) Identificar la situación actual/problema
+2) Identificar los requisitos de información (Diagrama de Contexto)
+3) Elaborar modelo conceptual (Modelo identidad relación) -> MER y EMER
+4) Traducir el MER a MR. Modelo lógico (Diseño)
+5) Constuir el modelo físico
+    -usar interfaces
+    -hacerle con código (SQL)
+6) Cargar datos
+    -manualmente
+    -código 
+    -archivos
+7) Generar repores/consultas que genern valor al cliente
+    -asistentes
+    -código
