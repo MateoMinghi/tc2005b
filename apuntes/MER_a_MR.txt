@@ -1,0 +1,20 @@
+Definición de Tablas: Cada entidad se convierte en una tabla con columnas correspondientes a sus atributos.
+La llave primaria de cada tabla corresponde al identificador de la entidad, que puede ser un identificador existente o 
+un identificador "artificial" creado para garantizar la unicidad de las filas.
+
+Relaciones N:N: Se crea una tabla adicional con columnas que incluyen los identificadores de las entidades participantes
+y los atributos de la asociación. La llave primaria de esta tabla es la concatenación de las llaves primarias de las entidades involucradas.
+
+Relaciones 1:N: La tabla de la entidad con cardinalidad N se modifica para incluir la llave primaria de la entidad con cardinalidad 1.
+
+Relaciones 1:1: Se agrega la llave primaria de una entidad a la otra (sin importar el orden).
+
+Relaciones ISA (especialización-generalización): Estas son relaciones 1:1, y las entidades especializadoras
+ heredan la llave primaria de la entidad generalizadora.
+
+Entidades Fuertes y Débiles: Las entidades débiles heredan la llave primaria de las entidades fuertes. 
+La tabla de la entidad débil incluye la llave primaria de la entidad fuerte y una columna adicional para distinguir 
+las tuplas de la entidad débil.
+
+Roles: Cuando se manejan relaciones reflexivas o múltiples relaciones entre dos entidades, se usan roles para 
+nombrar las columnas de identificadores heredados, evitando duplicados de columnas.

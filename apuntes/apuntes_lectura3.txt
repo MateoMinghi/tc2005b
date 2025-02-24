@@ -17,7 +17,9 @@ Procesos involucrados en administración del alcance:
 
 ***Entregable: todo producto, resultado o elemento medible.
 
-Work Breakdown Structure (WBS) Es la herramienta más importante de la gestión de proyectos, donde surge o se basa el resto de la planificación. Es el resultado de subdividir los entregables y el trabajo del proyecto en componentes cada vez más pequeños y manejables. Cada elemento debe representar un entregable medible. Cada elemento debe representar la suma de los elementos del nivel inferior
+Work Breakdown Structure (WBS) Es la herramienta más importante de la gestión de proyectos, donde surge o se basa el resto de la planificación. 
+Es el resultado de subdividir los entregables y el trabajo del proyecto en componentes cada vez más pequeños y manejables. 
+Cada elemento debe representar un entregable medible. Cada elemento debe representar la suma de los elementos del nivel inferior
 
 
 • Verificación del alcance

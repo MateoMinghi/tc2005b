@@ -31,3 +31,8 @@ Modelo E-R Extendido:
 -Roles: se utilizan cuando una entidad juega más de un rol en una asociación.
 -Entidades generalizadoras (superclase) y especializadoras (subclase). Las relaciones ISA (ES_UN) son implícitamente de cardinalidad 1:1. El tipo ES_UN puede ser disjunto o solapado.
 -Entidades fuertes (existencia propia) y débiles (dependen de otra entidad).
+
+
+
+Grado en el MER es el número de entidades 
+Cardinalidad en el MER es el número de entidades relacionadas
