@@ -1,0 +1,30 @@
+UML, o Lenguaje de Modelado Unificado, combina y estandariza una notación para describir sistemas orientados a objetos.
+Es un lenguaje gráfico para visualizar, especificar, construir y documentar un sistema de software desde distintos puntos de vista, describiendo los aspectos estáticos (estructura) y dinámicos (comportamiento) de un sistema.
+
+Los diagramas de estructura en UML incluyen:
+
+•Diagramas de clases: Describen la estructura del sistema mostrando clases, atributos, operaciones y relaciones.
+
+•Diagramas de objetos: Muestran la estructura del sistema en tiempo de ejecución, incluyendo instancias de una clase y sus atributos.
+Las clases son conceptos dentro del sistema que comparten los mismos atributos, operaciones, y relaciones.
+ Los atributos tienen tipo, visibilidad y un posible valor inicial, mientras que las operaciones tienen signatura y visibilidad.
+
+
+Las relaciones entre clases incluyen:
+
+•Asociaciones: Nombrar las asociaciones sigue el formato NombreTipo – FraseVerbal – NombreTipo.
+
+•Multiplicidad: Indica cuántas instancias de una clase A pueden asociarse con una instancia de una clase B, 
+ya sea en un momento concreto o a lo largo de un período de tiempo.
+
+•Navegabilidad: Indica si es posible enviar mensajes en la dirección de la flecha en uno de los dos extremos de la asociación.
+
+•Asociaciones reflexivas.
+
+•Relaciones de tipo composición: Se utiliza para modelar las relaciones todo-parte entre las cosas. 
+Se representa en UML con un rombo relleno. Se debe mostrar una composición cuando el tiempo de vida de la parte 
+está ligado al tiempo de vida del compuesto.
+
+•Relaciones del tipo agregación: Se utiliza para conceptos abstractos, no físicos. Se representa en UML con un rombo hueco.
+
+•Generalización: Relación taxonómica entre un clasificador más general y uno más específico.
