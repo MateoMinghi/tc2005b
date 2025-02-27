@@ -7,13 +7,17 @@ Alcance del proyecto: suma de todos los productos y servicios que deben entregar
 El alcance del producto abarca las características y funciones que debe tener un producto o servicio, verificándose con los requisitos. El alcance del proyecto refiere al trabajo o tareas necesarias para entregar el producto con las características solicitadas.
 
 Procesos involucrados en administración del alcance:
-• Iniciación - proceso de autorización formal de un nuevo proyecto o fase. Se asegura el soporte de la organización, definición de objetivos , la aprobación y recursos necesarios, alineación con objetivos estratégicos y asignación de jefe de proyecto
+• Iniciación - proceso de autorización formal de un nuevo proyecto o fase. Se asegura el soporte de la organización,
+ definición de objetivos , la aprobación y recursos necesarios, alineación con objetivos estratégicos y asignación de jefe de proyecto
 
 
-• Planificación del alcance - desarrollo de un enunciado escrito del alcance como base para decisiones futuras del proyecto. Debe incluir la justificación, el producto, los entregables y los objetivos del proyecto (SMART). El plan de gestión del alcance describe cómo se gestionará el alcancel proyecto.
+• Planificación del alcance - desarrollo de un enunciado escrito del alcance como base para decisiones futuras del proyecto.
+ Debe incluir la justificación, el producto, los entregables y los objetivos del proyecto (SMART).
+El plan de gestión del alcance describe cómo se gestionará el alcancel proyecto.
 
 
-• Definición del alcance - dividir el trabajo en partes manejables para mejorar la precisión de las estimaciones de tiempo, costo y recursos, definir la línea base para medir el rendimiento, y definir responsabilidades
+• Definición del alcance - dividir el trabajo en partes manejables para mejorar la precisión de las estimaciones de tiempo,
+costo y recursos, definir la línea base para medir el rendimiento, y definir responsabilidades
 
 ***Entregable: todo producto, resultado o elemento medible.
 
