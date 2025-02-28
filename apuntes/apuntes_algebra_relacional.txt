@@ -1,0 +1,66 @@
+El modelo relacional busca la independencia física y lógica de los datos, ofreciendo flexibilidad, 
+uniformidad y sencillez en la manipulación de bases de datos. El concepto fundamental es la "relación" (tabla), 
+donde los datos se representan en forma de relaciones cuyo contenido varía en el tiempo.
+
+
+
+Grado: número de columnas en una tabla
+Cardinalidad: el número de tuplas/filas/registros de una tabla
+Dominio: los valores que puede tener un campo o conjunto de campos 
+
+
+
+
+•Relación: Subconjunto del producto cartesiano de dominios. Se denota como R(D1, D2, D3, ...Dk).
+
+•Esquema de relación (Intensión): La parte definitoria y estática de la relación, que se corresponde 
+con la cabecera cuando la relación se percibe como una tabla. Se denota como R (Al:D1, A2:D2, ..., An:Dn).
+
+•Extensión de relación (Ocurrencia/Instancia): Un conjunto de m tuplas {t1, t2, ... tm} donde cada tupla es un conjunto de n pares 
+atributo-valor.
+
+•Dominio: Conjunto finito de valores homogéneos y atómicos.
+
+•Atributo: El papel que tiene un determinado dominio en una relación.
+
+•Llave Primaria: Columna (o conjunto de columnas) cuyos valores identifican de forma única cada tupla en una relación.
+
+•Llave Foránea: Atributo en una relación que coincide con la clave primaria de otra relación.
+
+•Modelo Relacional: Un conjunto de esquemas de relaciones que se refieren entre sí mediante llaves foráneas.
+
+Restricciones del modelo relacional:
+
+•Restricciones inherentes: Derivadas de la definición matemática de relación (no hay tuplas iguales, el orden no es significativo, etc.). 
+La regla de integridad de entidad establece que ningún atributo de la clave primaria puede ser nulo.
+•Restricciones de usuario: Predicados definidos sobre atributos, tuplas o dominios que deben verificarse. 
+Destaca la restricción de integridad referencial, donde los valores de la clave foránea deben coincidir con los de la clave primaria asociada o ser nulos.
+El modelo relacional se examina en la arquitectura ANSI a tres niveles, donde los dominios, relaciones, claves y restricciones constituyen el esquema conceptual. 
+Las relaciones se denominan tablas base o reales, las tablas virtuales o vistas se definen sobre una o más tablas base y equivalen al esquema externo
+de la arquitectura ANSI.
+
+Dinámica del modelo relacional: Se expresa mediante lenguajes de manipulación relacionales que operan sobre conjuntos de tuplas. Se dividen en algebraicos (álgebra relacional) y predicativos (cálculo relacional). El álgebra relacional actúa sobre el conjunto de todas las relaciones y es un álgebra cerrada. Los operadores básicos del álgebra relacional incluyen unión, intersección, diferencia, proyección, selección, join natural, teta-join, producto cartesiano y división
+
+
+El álgebra relacional se caracteriza porque los cambios de estado en una base de datos se especifican mediante operaciones cuyos operandos son relaciones y cuyo resultado es otra relación. En otras palabras, es un conjunto de operaciones que toman relaciones (tablas) como entrada y producen nuevas relaciones como salida.
+
+Características:
+•Actúa sobre el conjunto de todas las relaciones en el modelo relacional.
+•Es un álgebra cerrada, lo que significa que los operadores siempre producen relaciones como resultado. 
+Esto permite combinar operadores para construir expresiones complejas.
+•Tiene un conjunto de operadores básicos, a partir de los cuales se pueden definir operadores nuevos.
+
+Operadores básicos: 
+•Unión: Combina dos relaciones, eliminando duplicados.
+•Intersección: Encuentra las tuplas comunes a dos relaciones.
+•Diferencia: Encuentra las tuplas que están en una relación pero no en otra.
+•Proyección: Selecciona columnas específicas de una relación.
+•Selección: Filtra las tuplas de una relación según una condición.
+•Join Natural: Combina dos relaciones basándose en columnas con nombres comunes.
+•Teta-Join: Combina dos relaciones basándose en una condición arbitraria.
+•Producto cartesiano: Combina cada tupla de una relación con cada tupla de otra relación.
+•División: Es un operador que permite encontrar tuplas que, al combinarse con todas las tuplas de otra relación, 
+producen un resultado específico. Es útil para simplificar consultas complejas.
+El documento establece una analogía con el álgebra de los números reales para ayudar a comprender el álgebra relacional. 
+Así como el álgebra de los números reales tiene operadores como la suma y la multiplicación que actúan sobre números reales 
+para producir otros números reales, el álgebra relacional tiene operadores que actúan sobre relaciones para producir otras relaciones.
