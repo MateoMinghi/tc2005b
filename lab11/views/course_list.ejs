@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Cursos</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 10px; text-align: left; }
+        th { background: #f4f4f4; }
+        .btn { padding: 5px 10px; border-radius: 4px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Lista de Cursos</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Código</th>
+            <th>Profesor</th>
+            <th>Acciones</th>
+        </tr>
+        <% courses.forEach(function(course) { %>
+            <tr>
+                <td><%= course.id %></td>
+                <td><%= course.name %></td>
+                <td><%= course.code %></td>
+                <td><%= course.teacher %></td>
+                <td>
+                    <a href="/courses/<%= course.id %>" class="btn">Ver detalles</a>
+                </td>
+            </tr>
+        <% }); %>
+    </table>
+    <a href="/courses/add" class="btn">Agregar curso</a>
+    <a href="/" class="btn">Inicio</a>
+</body>
+</html>
