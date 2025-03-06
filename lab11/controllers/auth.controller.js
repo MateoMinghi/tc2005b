@@ -1,8 +1,6 @@
-// For demo purposes, we'll use a simple hard-coded user
-// In a real app, you'd use a database and proper password hashing
 const demoUser = {
-    username: 'admin',
-    password: 'admin123'
+    username: 'Kike',
+    password: 'Kike123'
 };
 
 exports.getLogin = (req, res) => {
@@ -17,7 +15,6 @@ exports.postLogin = (req, res) => {
         req.session.username = username;
 
         if (remember) {
-            // Set a remember-me cookie that lasts 30 days
             res.cookie('rememberMe', username, {
                 maxAge: 30 * 24 * 60 * 60 * 1000,
                 httpOnly: true
@@ -44,7 +41,6 @@ exports.isAuth = (req, res, next) => {
     if (req.session.isLoggedIn) {
         next();
     } else if (req.cookies.rememberMe === demoUser.username) {
-        // Auto-login with remember-me cookie
         req.session.isLoggedIn = true;
         req.session.username = demoUser.username;
         next();
