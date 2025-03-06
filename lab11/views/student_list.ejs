@@ -29,12 +29,12 @@
                 <td><%= student.grade %></td>
                 <td><%= student.studentId %></td>
                 <td class="actions">
-                    <a href="/edit/<%= student.id %>" class="btn edit">Editar</a>
-                    <a href="/delete/<%= student.id %>" class="btn delete" >Borrar</a>
+                    <a href="/students/edit/<%= student.id %>" class="btn edit">Editar</a>
+                    <a href="/students/delete/<%= student.id %>" class="btn delete" >Borrar</a>
                 </td>
             </tr>
         <% }); %>
     </table>
-    <a href="/add">Agregar estudiante</a>
+    <a href="/students/add">Agregar estudiante</a>
 </body>
 </html>
