@@ -1,0 +1,41 @@
+El texto "Generating Test Cases From Use Cases" de Jim Heumann trata sobre cómo utilizar 
+los casos de uso para generar casos de prueba en el desarrollo de software. El autor argumenta que las pruebas de software son costosas pero esenciales, representando del 30 al 50 por ciento de los costos de desarrollo, y a menudo se realizan sin una metodología clara, lo que resulta en pruebas deficientes.
+
+Un principio fundamental es que es mejor comenzar las pruebas lo antes posible en el ciclo de vida del desarrollo de software. 
+Retrasar las pruebas hasta que todo el desarrollo esté completo es arriesgado y puede causar retrasos si se encuentran errores significativos. Tener un plan claro para realizar las pruebas puede mejorar la cobertura, la eficiencia y la calidad del software.
+
+El artículo explica que los casos de uso definen los requisitos del software desde las primeras etapas del desarrollo. 
+Un caso de uso describe una secuencia de acciones realizadas por el sistema para proporcionar un resultado de valor a un usuario u otro sistema. Los casos de uso son útiles para clientes, desarrolladores, redactores técnicos y testers.
+La creación de casos de prueba es la primera tarea importante en las pruebas de software. Los casos de prueba identifican las condiciones que se implementarán en las pruebas y son necesarios para verificar que el producto cumpla con los requisitos. Los desarrolladores pueden comenzar a crear casos de prueba tan pronto como los casos de uso estén disponibles, incluso antes de que se escriba el código.
+El texto describe la estructura de un caso de uso, que incluye:
+
+•Nombre
+•Descripción breve
+•Flujo de eventos: Describe lo que hace el sistema (flujo básico y flujos alternativos). El flujo de eventos es la parte más importante para generar casos de prueba.
+•Requisitos especiales
+•Precondiciones
+•Postcondiciones
+
+Se explica que un escenario de caso de uso es una instancia o una ruta completa a través de un caso de uso, combinando el flujo básico con diferentes flujos alternativos.
+El autor propone un proceso de tres pasos para generar casos de prueba a partir de casos de uso detallados:
+
+1.Generar un conjunto completo de escenarios de casos de uso.
+2.Para cada escenario, identificar al menos un caso de prueba y las condiciones para su ejecución.
+3.Para cada caso de prueba, identificar los valores de datos con los que se probará.
+
+El artículo incluye ejemplos de flujos de eventos básicos y alternativos para un caso de uso de "Registrarse para cursos". También muestra una matriz de escenarios y una matriz de casos de prueba con las condiciones (válidas o inválidas) y con valores de datos específicos.
+Finalmente, el texto concluye que aprovechar los casos de uso para generar casos de prueba permite iniciar las pruebas mucho antes en el ciclo de vida del desarrollo, lo que ayuda a identificar y corregir defectos de manera temprana, cumplir con los plazos y garantizar la fiabilidad del sistema. Esta metodología clara simplifica el proceso de prueba, aumenta la eficiencia y mejora la cobertura de las pruebas.
+
+
+Procedimiento para diseñar casos de prueba
+
+1)Identificar requisitos funcionales (Diagrama casos de uso)
+2)Por cada requisito funcional (caso de uso)
+
+2.1)Describir caso de uso (Formato)
+2.2)Elaborar el árbol de desiciones
+2.3)Elaborar diagrama de actividades
+2.4)Identidicar los escenarios posibles
+2.5)Asignar nombre a casa escenario
+2.6)Elaborar tabla con valores V/I/NA
+2.7)Elaborar tabla con DATOS para cada escenario. Al menos una por escenario

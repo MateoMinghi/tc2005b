@@ -36,3 +36,17 @@ Modelo E-R Extendido:
 
 Grado en el MER es el número de entidades 
 Cardinalidad en el MER es el número de entidades relacionadas
+
+
+
+SQL (DDL, DML, SQU)
+
+DDL (Data Definition Language) - Modificar la estructura de una BD
+* CREATE, ALTER, DROP
+* Tablas, Schema, Procedure, Function, stc
+
+DML (Data Manipulation Language) - Manipular los datps
+* INSERT, UPDATE, DELETE
+
+Consultas
+
