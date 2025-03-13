@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalles del Curso</title>
+    <style>
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; }
+        .detail { margin: 10px 0; }
+        .label { font-weight: bold; }
+        .btn { padding: 5px 10px; text-decoration: none; margin-top: 20px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Detalles del Curso</h1>
+        <div class="detail">
+            <span class="label">ID:</span> <%= course.id %>
+        </div>
+        <div class="detail">
+            <span class="label">Nombre:</span> <%= course.name %>
+        </div>
+        <div class="detail">
+            <span class="label">Código:</span> <%= course.code %>
+        </div>
+        <div class="detail">
+            <span class="label">Profesor:</span> <%= course.teacher %>
+        </div>
+        <a href="/courses" class="btn">Volver a la lista</a>
+    </div>
+</body>
+</html>

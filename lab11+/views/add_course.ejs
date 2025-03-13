@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agregar Curso</title>
+    <style>
+        form { max-width: 500px; margin: 20px auto; }
+        div { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 8px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Agregar Nuevo Curso</h1>
+    <form action="/courses/add" method="POST">
+        <div>
+            <label for="name">Nombre del curso:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="code">Código del curso:</label>
+            <input type="text" id="code" name="code" required>
+        </div>
+        <div>
+            <label for="teacher">Profesor:</label>
+            <input type="text" id="teacher" name="teacher" required>
+        </div>
+        <button type="submit">Agregar curso</button>
+    </form>
+    <a href="/courses">Volver a la lista</a>
+</body>
+</html>

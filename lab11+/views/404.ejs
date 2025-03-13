@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 - Página no encontrada</title>
+    <style>
+        .container {
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+        .error-code {
+            font-size: 72px;
+            color: #e74c3c;
+            margin: 0;
+        }
+        .error-message {
+            font-size: 24px;
+            color: #333;
+        }
+        .path {
+            color: #666;
+            margin: 20px 0;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="error-code">404</h1>
+        <p class="error-message">Página no encontrada</p>
+        <p class="path">La ruta "<%= path %>" no existe</p>
+        <a href="/" class="home-link">Volver al inicio</a>
+    </div>
+</body>
+</html>

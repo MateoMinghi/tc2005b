@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de control escolar</title>
+    <style>
+        .container { 
+            max-width: 800px; 
+            margin: 50px auto; 
+            text-align: center; 
+        }
+        .nav-links {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .nav-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+        }
+        .user-section {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: right;
+        }
+        .theme-switch {
+            margin-top: 10px;
+        }
+        body.dark {
+            background-color: #333;
+            color: #fff;
+        }
+        body.dark h2 {
+            color: #fff;
+        }
+        body.dark .nav-links a {
+            background: #2c6e2e;
+        }
+    </style>
+</head>
+<body class="<%= theme %>">
+    <div class="user-section">
+        <% if (isLoggedIn) { %>
+            <span>Bienvenido, <%= username %>!</span>
+            <br>
+            <a href="/logout">Logout</a>
+            <div class="theme-switch">
+                <label>
+                    <input type="checkbox" id="theme-toggle" <%= theme === 'dark' ? 'checked' : '' %>>
+                    Dark Mode
+                </label>
+            </div>
+        <% } else { %>
+            <a href="/login">Login</a>
+        <% } %>
+    </div>
+
+    <div class="container">
+        <h1>Lab 11+ - Sistema de control escolar</h1>
+        
+        <% if (isLoggedIn) { %>
+            <div class="section">
+                <h2>Gestión de Estudiantes</h2>
+                <div class="nav-links">
+                    <a href="/students">Ver estudiantes</a>
+                    <a href="/students/add">Agregar estudiante</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Gestión de Cursos</h2>
+                <div class="nav-links">
+                    <a href="/courses">Ver cursos</a>
+                    <a href="/courses/add">Agregar curso</a>
+                </div>
+            </div>
+        <% } else { %>
+            <p>Incia sesión para entrar al sistema</p>
+        <% } %>
+    </div>
+
+    <script>
+        document.getElementById('theme-toggle')?.addEventListener('change', function() {
+            const newTheme = this.checked ? 'dark' : 'light';
+            fetch('/theme', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ theme: newTheme }),
+            }).then(() => {
+                document.body.className = newTheme;
+            });
+        });
+    </script>
+</body>
+</html>

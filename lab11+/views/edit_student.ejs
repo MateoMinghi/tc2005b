@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar estudiante</title>
+    <style>
+        form { max-width: 500px; margin: 20px auto; }
+        div { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 8px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; cursor: pointer; }
+        a { display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Edit Student</h1>
+    <form action="/edit/<%= student.id %>" method="POST">
+        <div>
+            <label for="name">Nombre estudiante:</label>
+            <input type="text" id="name" name="name" value="<%= student.name %>" required>
+        </div>
+        <div>
+            <label for="grade">Grado:</label>
+            <input type="number" id="grade" name="grade" min="1" max="12" value="<%= student.grade %>" required>
+        </div>
+        <div>
+            <label for="studentId">ID estudiante:</label>
+            <input type="text" id="studentId" name="studentId" value="<%= student.studentId %>" required>
+        </div>
+        <button type="submit">Editar estudiante</button>
+    </form>
+    <a href="/list">lista</a>
+</body>
+</html>

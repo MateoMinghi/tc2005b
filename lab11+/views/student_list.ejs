@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 10px; text-align: left; }
+        th { background: #f4f4f4; }
+        .actions { display: flex; gap: 10px; }
+        .btn { padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+        .edit { background: #4CAF50; color: white; text-decoration: none; }
+        .delete { background: #f44336; color: white; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Student List</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Grado</th>
+            <th>ID estudiante</th>
+            <th></th>
+        </tr>
+        <% students.forEach(function(student) { %>
+            <tr>
+                <td><%= student.id %></td>
+                <td><%= student.name %></td>
+                <td><%= student.grade %></td>
+                <td><%= student.studentId %></td>
+                <td class="actions">
+                    <a href="/students/edit/<%= student.id %>" class="btn edit">Editar</a>
+                    <a href="/students/delete/<%= student.id %>" class="btn delete" >Borrar</a>
+                </td>
+            </tr>
+        <% }); %>
+    </table>
+    <a href="/students/add">Agregar estudiante</a>
+</body>
+</html>

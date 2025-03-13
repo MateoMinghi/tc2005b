@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nuevo estudiante</title>
+</head>
+<body>
+    <h1>Agrega nuevo estudiante</h1>
+    <form action="/students/add" method="POST">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="grade">Grado:</label>
+            <input type="number" id="grade" name="grade" min="1" max="12" required>
+        </div>
+        <div>
+            <label for="studentId">ID Estudiante:</label>
+            <input type="text" id="studentId" name="studentId" required>
+        </div>
+        <button type="submit">Agregar estudiante</button>
+    </form>
+    <a href="/students">Ver estudiantes</a>
+</body>
+</html>
