@@ -114,3 +114,22 @@ del código que se revisó.
 
 
 Diagramas de secuencia modelan el cómo se van a resolver las funcionalidades
+
+Cuando se trabaja con bases de datos, hay dos escenarios:
+
+1) En el proyecto se crea la base de datos desde cero
+-identificar necesidad
+-requisitos de información
+-elaborar diagrama de Contexto
+-elaborar modelo entidad relación y EMER
+-elaborar modelo relacional
+
+
+2) La base de datos ya existe
+-normalización de base de datos
+
+
+Normalizar una base de datos es re-organizar, re-estructurar para simplificar las operaciones tales como: Consultas o modificaciones
+
+Una BD de datos que NO está NORMALIZADA tiene riesgos de anomalías, de inserción, de modificación, de eliminación y de consultas
+

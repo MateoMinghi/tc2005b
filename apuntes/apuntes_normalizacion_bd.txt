@@ -1,0 +1,34 @@
+(resumen generado con IA)
+
+La lectura "Normalización" presenta una introducción al concepto de normalización en el diseño de bases de datos relacionales. El objetivo principal de la normalización es obtener una **estructura estable y lógica** para evitar **anomalías de almacenamiento** y facilitar la **modificación del modelo lógico** ante nuevos requerimientos. Una base de datos bien diseñada tiene una mayor **esperanza de vida** y un **buen desempeño** incluso al aumentar su tamaño, además de ser **flexible** para incorporar cambios.
+
+La normalización busca mitigar riesgos comunes en el diseño de bases de datos relacionales, como la **redundancia de información** y la **inconsistencia de datos**. Se define como el proceso de **simplificar la relación entre los campos de un registro**, reemplazando un conjunto de datos en un registro por varios registros más simples y manejables.
+
+Las razones principales para llevar a cabo la normalización son:
+*   **Estructurar los datos** de forma que se puedan representar las relaciones pertinentes entre ellos.
+*   **Permitir la recuperación sencilla** de los datos mediante consultas y reportes.
+*   **Simplificar el mantenimiento** de los datos (actualización, inserción y borrado).
+*   **Reducir la necesidad de reestructurar o reorganizar** los datos ante nuevas aplicaciones.
+
+El proceso de normalización implica los siguientes pasos:
+1.  **Descomponer todos los grupos de datos en registros bidimensionales.**
+2.  **Eliminar todas las relaciones en las que los datos no dependan completamente de la llave primaria del registro.**
+3.  **Eliminar todas las relaciones que contengan dependencias transitivas.**
+
+La lectura explica que una relación está en una **determinada forma normal** si satisface un conjunto de restricciones. Las formas normales son técnicas para **prevenir las anomalías en las tablas**.
+
+Las formas normales descritas son:
+
+*   **Primera forma normal (1FN):** Una relación está en 1FN si cada celda contiene **valores atómicos** (simples, no grupos ni arreglos repetidos), todas las entradas en una columna son del **mismo tipo**, cada columna tiene un **nombre único**, y las filas no deben ser **idénticas**. La mayoría de las relaciones iniciales suelen cumplir con estas características.
+
+*   **Segunda forma normal (2FN):** Una relación está en 2FN si está en 1FN y todos los **atributos no primos (no llave)** dependen **funcionalmente** de la **llave primaria**. Es decir, todos los atributos que no son clave dependen completamente de la clave. Si una tabla tiene un único atributo como clave primaria, automáticamente está en 2FN.
+
+*   **Tercera forma normal (3FN):** Una relación está en 3FN si está en 2FN y no existen **dependencias transitivas** entre los atributos no clave y la clave primaria. Una dependencia transitiva ocurre cuando un atributo no clave depende de otro atributo no clave, que a su vez depende de la clave primaria. La 3FN implica eliminar estas dependencias separando los atributos en diferentes tablas.
+
+*   **Forma normal de Boyce Codd (FNBC o BCNF):** Una relación está en FNBC si **cada determinante es una llave candidata**. Un determinante es uno o más atributos que determinan funcionalmente otro atributo. Una llave candidata es cualquier atributo o conjunto de atributos que puede identificar de forma única cada fila de una relación. La FNBC generaliza la 3FN al considerar todos los determinantes, no solo las llaves primarias.
+
+*   **Cuarta forma normal (4FN):** Se relaciona con las **dependencias de valores múltiples**. Existe una dependencia de valores múltiples en una tabla con al menos tres atributos (A, B, C) si A determina múltiples valores de B, A determina múltiples valores de C, y B y C son independientes entre sí. Una relación está en 4FN si para toda dependencia de valores múltiples X->->Y, X es una superllave o la dependencia es trivial. Para eliminar la redundancia causada por dependencias de valores múltiples, se deben crear tablas separadas para cada atributo de valores múltiples.
+
+*   **Quinta forma normal (5FN):** Se refiere a **dependencias de producto**, que son dependencias "extrañas" en tablas que pueden dividirse en subtablas pero no pueden reconstruirse sin pérdida de información. Una relación está en 5FN si toda Ri en una dependencia de producto es una superllave de R o la dependencia es trivial. Este concepto está relacionado con entidades que tienen especializaciones o roles.
+
+Finalmente, la lectura recomienda consultar el capítulo 5 del libro "Database processing fundamentals, design and implementation" de David M. Kroenke para profundizar en los diferentes tipos de anomalías que se evitan al normalizar una base de datos.
