@@ -50,3 +50,20 @@ DML (Data Manipulation Language) - Manipular los datps
 
 Consultas
 
+
+Stored procedure - conjunto de instrucciones SQL que se almacenan en una base de datos. Se pueden usar para automatizar tareas, como actualizaciones, consultas, borrado de datos, y más
+
+Stored function - a defined function that is called from within an SQL statement like a regular function, and returns a single value
+
+Trigger - stored procedure que se invocan de manera automática. Se invocan porque ocurre un evento (DDL, DML, etc) 
+
+Trigger DDL - se invocan cuando se modifica la estructura de la Tabla
+Trigger DML - se invocan cuando se modifica el contenido de la tabla 
+
+Ventajas:
+* Generar valores de columna derivados
+* Aplicar identidad referencial
+* Registro de eventos y almacenamiento de información sobre el acceso a la tabla
+* Auditoría
+* Replicación sincrónica de Tablas
+* Imponer autorizaciones de seguridad
