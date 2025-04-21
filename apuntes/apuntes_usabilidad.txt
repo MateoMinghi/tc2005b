@@ -1,0 +1,63 @@
+Explica que algo fácil de usar es rápido de aprender, fácil de recordar, resistente a errores, 
+permite a los usuarios ser eficientes y genera en ellos el deseo de usarlo.
+Se enfatiza que si una característica de un sistema no se puede o no se quiere usar, es como si no existiera.
+
+
+
+El texto también aborda la evaluación de la usabilidad, mencionando métodos como Usability walkthroughs,
+Usability testing, Thinking Aloud Tests y la Evaluación Heurística o Revisión de Expertos.
+Se profundiza en la Evaluación Heurística, presentando los 10 principios de usabilidad para el diseño de interfaces de usuario:
+
+• Visibilidad y estatus del sistema: El sistema debe mantener informados a los usuarios sobre lo que sucede mediante retroalimentación oportuna.
+
+• Correspondencia entre el sistema y el mundo real: El diseño debe usar el lenguaje del usuario, con palabras, frases y conceptos familiares.
+
+• Control y libertad del usuario: Los usuarios deben tener salidas de emergencia para deshacer acciones no deseadas.
+
+• Consistencia y estándares: Se deben seguir las convenciones de las plataformas y evitar que los usuarios duden del significado de diferentes elementos.
+
+• Prevención de errores: Es preferible un diseño que evite errores a tener buenos mensajes de error.
+
+• Reconocimiento antes que recuerdo: Minimizar la carga de la memoria del usuario haciendo elementos, acciones y opciones visibles.
+
+• Flexibilidad y eficiencia de uso: Los atajos pueden acelerar la interacción para usuarios expertos.
+
+• Estética y diseño minimalista: Las interfaces no deben contener información irrelevante.
+
+• Reconocimiento, diagnóstico y recuperación de errores: Los mensajes de error deben ser claros, precisos y constructivos.
+
+• Ayuda y documentación: Aunque los mejores diseños no necesitan explicación, puede ser necesaria la documentación.
+
+
+Pruebas para garantizar que una aplicación sea amigable
+
+Evaluación Heurística
+
+1. Conocer las reglas de Oro (10)
+2. Elaborar UAR
+
+Identificador: Problem UAR_HE_01
+
+Descripción (texto)
+Evidencia (Texto + imágenes)
+Explicación
+Severidad (Prioridad)
+
+
+Propuesta de solución
+
+
+
+Pruebas de pensamiento en voz alta
+(integrantes del equipo + usuarios finales)
+Software debe estar desplegado (pruebas ejecutadas de funcionalidad)
+Se hace prácticamente lo mismo, pero se tiene que capacitar al usuario final para hacer la prueba.
+Elaborar práctica/laboratorio para el usuario finales
+
+Laboratorio - Coordinador
+
+1. El coordinador configura su contraseña
+2. El coordinador se autentica con sus credenciales
+3. El coordinador registra la disponibilidad de 3 de los profesores
+4. El coordinador registra las aulas disponibles para el periodo académico actual
+5. El coordinador genera horario por alumno
